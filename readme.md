@@ -10,21 +10,9 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![YouTube](https://img.shields.io/badge/YouTube-MatMaxEngel-red?logo=youtube&logoColor=white)](https://www.youtube.com/user/MatMaxEngel)
 
-<div align="center">
-  <img src="assets/jarel_logo_banner.png" alt="Jar-El Logo" width="900">
-</div>
-
-![Jar-El Architecture](assets/architecture_diagram.png)
-*System Architecture: Hybrid Setup with Local Kernel and Remote Compute.*
-
 **Jar-El is a Personal Semantic Operating System (S-OS) designed to act as a Digital Twin.**
 
 Unlike static RAG systems, Jar-El features an active **"Self-Baking" memory architecture** and uses the **Model Context Protocol (MCP)** to orchestrate between devices (iPhone, Desktop, Server) and LLMs. It preserves not just data, but your reasoning style, emotions, and context, enabling autonomous agentic workflows.
-
-<div align="right">
-  <img src="assets/mwk_logo_w2.png" alt="Ministry of Science, Research and Arts Logo" height="60">
-  <img src="assets/stifterverband_logo.jpg" alt="Stifterverband Logo" height="60">
-</div>
 
 This project is conceptualized by **Prof. Dr. Mathias Engel** as part of the research on personal AI agents and educational assistants.
 
