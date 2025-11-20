@@ -1,4 +1,3 @@
-````markdown
 # Jar-El 🧠
 
 ![GitHub stars](https://img.shields.io/github/stars/ProfEngel/Jar-El?style=social)
@@ -223,4 +222,4 @@ Personal Semantic Operating System (S-OS) and Digital Twin Framework.
 `mcp` `semantic-os` `digital-twin` `rag` `vector-database` `qdrant` `python` `docker` `ai-agent` `self-baking-memory` `personal-ai`
 
 ```
-```
+
