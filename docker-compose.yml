@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: jar-el-qdrant
+    restart: unless-stopped
+    ports:
+      - "6343:6333"
+    volumes:
+      - ./data/qdrant:/qdrant/storage
+
+  memory-api:
+    build: ./memory-api
+    container_name: jar-el-memory-api
+    restart: unless-stopped
+    depends_on:
+      - qdrant
+    env_file:
+      - ./memory-api/.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./memory-api:/app
+
+  self-baker:
+    build: ./self-baker
+    container_name: jar-el-self-baker
+    restart: unless-stopped
+    depends_on:
+      - qdrant
+    env_file:
+      - ./memory-api/.env
+
+  jar-el-mcp-http:
+    build: ./mcp
+    container_name: jar-el-mcp-http
+    restart: unless-stopped
+    env_file:
+      - ./mcp/.env
+    ports:
+      - "8765:8765"
+    depends_on:
+      - memory-api

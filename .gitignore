@@ -1,0 +1,24 @@
+# Sensible Daten / Environment Variables
+.env
+.env.local
+*.key
+
+# Docker Volumes / Datenbanken (WICHTIG!)
+data/
+qdrant_storage/
+
+# Python Müll
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+
+# OS spezifisch
+.DS_Store
+
+# Falls du Modelle lokal hast, nicht hochladen (zu groß)
+*.bin
+*.gguf
