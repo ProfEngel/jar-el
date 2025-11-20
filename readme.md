@@ -34,7 +34,7 @@ This project is conceptualized by **Prof. Dr. Mathias Engel** as part of the res
 - 🛠️ **Agentic Workflows**:
   - **Docling Integration**: Multimodal ingestion of PDFs/Images into semantic text.
   - **Reinforcement Learning**: Feedback loops comparing drafted vs. sent emails to optimize workflows.
-- 🌍 **Hybrid Architecture**: Runs on energy-efficient MiniPCs (8GB RAM) while offloading heavy compute to OpenAI-compatible APIs.
+- 🌍 **Hybrid Architecture**: Runs on energy-efficient MiniPCs/Raspberry Pi 4 or 5 (8-16GB RAM) while offloading heavy compute to OpenAI-compatible APIs.
 - 🔒 **Privacy First**: Your memory, secrets, and graph stay on your local server.
 
 ***
@@ -46,13 +46,13 @@ Full Installation Guide here [Installation and Use-Guide](howto.md).
 ### System Requirements
 
 **Hardware:**
-- **Host:** Simple MiniPC (x86/ARM) with approx. 8 GB RAM (e.g., Beelink, Minisforum, Mac Mini)
+- **Host:** Simple MiniPC (x86/ARM) with approx. 8-16 GB RAM (e.g.,Raspberry Pi,  Beelink, Minisforum, Mac Mini)
 - **Storage:** 50 GB SSD space for Docker and Vector DB
 - **Network:** Tailscale recommended for secure remote access
 
 **Software:**
 - **Docker & Docker Compose**
-- **API Access:** OpenAI, OpenRouter, or a self-hosted HFWU-Server
+- **API Access:** OpenAI, OpenRouter, or a (self-hosted) V-Server
 
 ### Quick Start
 
@@ -70,7 +70,7 @@ Full Installation Guide here [Installation and Use-Guide](howto.md).
     # Intelligence Provider
     OPENAI_API_KEY=sk-xxxx
     OPENAI_BASE_URL=[https://api.openai.com/v1](https://api.openai.com/v1)
-    OPENAI_CHAT_MODEL=gpt-4o
+    OPENAI_CHAT_MODEL=YOUR_PREFERRED_LLM_NAME
 
     # Internal Config
     MEMORY_API_URL=http://memory-api:8000
