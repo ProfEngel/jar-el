@@ -186,25 +186,17 @@ If you find this tool useful and want to support the development (or just keep t
 
 Personal Semantic Operating System (S-OS) and Digital Twin Framework.
 
-\<div align="left"\>
-\<img src="assets/jarel\_logo\_small.png" alt="Jar-El Logo" width="100"\>
-\</div\>
-
-**Prof. Dr. Mathias Engel - ProfEngel** \<div align="left"\>
-\<img src="assets/hfwu\_logo\_w.png" alt="Nürtingen-Geislingen University" width="100"\>
-
-\</div\>
-**Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen**
+**Prof. Dr. Mathias Engel - ProfEngel** **Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen**
 
 ## Star History
 
-\<a href="https://www.google.com/search?q=https://star-history.com/%23ProfEngel/Jar-El%26Date"\>
-\<picture\>
-\<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://api.star-history.com/svg%3Frepos%3DProfEngel/Jar-El%26type%3DDate%26theme%3Ddark" /\>
-\<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://api.star-history.com/svg%3Frepos%3DProfEngel/Jar-El%26type%3DDate" /\>
-\<img alt="Star History Chart" src="https://www.google.com/search?q=https://api.star-history.com/svg%3Frepos%3DProfEngel/Jar-El%26type%3DDate" /\>
-\</picture\>
-\</a\>
+<a href="https://star-history.com/#ProfEngel/Jar-El&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ProfEngel/Jar-El&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ProfEngel/Jar-El&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ProfEngel/Jar-El&type=Date" />
+ </picture>
+</a>
 
 ### Topics
 
