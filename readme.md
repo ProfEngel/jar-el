@@ -57,10 +57,11 @@ Full Installation Guide here [Installation and Use-Guide](howto.md).
 ### Quick Start
 
 1. **Clone the Repository**
+
    ```bash
    git clone [https://github.com/ProfEngel/Jar-El.git](https://github.com/ProfEngel/Jar-El.git)
    cd Jar-El
-````
+   ````
 
 2.  **Configuration**
     Create a `.env` file in the root directory:
@@ -208,6 +209,4 @@ Personal Semantic Operating System (S-OS) and Digital Twin Framework.
 ### Topics
 
 `mcp` `semantic-os` `digital-twin` `rag` `vector-database` `qdrant` `python` `docker` `ai-agent` `self-baking-memory` `personal-ai`
-
-```
 
