@@ -1,3 +1,4 @@
+````markdown
 # Jar-El 🧠
 
 ![GitHub stars](https://img.shields.io/github/stars/ProfEngel/Jar-El?style=social)
@@ -187,9 +188,9 @@ If you find this tool useful and want to support the development (or just keep t
 
 -----
 
-**Created by Prof. Dr. Mathias Engel 2023-2025**
+**Created by Prof. Dr. Mathias Engel 2024-2025**
 
-*Made with ❤️ in NStuttgart, Germany*
+*Made with ❤️ in Stuttgart, Germany*
 
 -----
 
@@ -220,3 +221,6 @@ Personal Semantic Operating System (S-OS) and Digital Twin Framework.
 ### Topics
 
 `mcp` `semantic-os` `digital-twin` `rag` `vector-database` `qdrant` `python` `docker` `ai-agent` `self-baking-memory` `personal-ai`
+
+```
+```
