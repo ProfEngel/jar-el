@@ -67,10 +67,19 @@ Full Installation Guide here [Installation and Use-Guide](howto.md).
     Create a `.env` file in the root directory:
 
     ```ini
-    # Intelligence Provider
-    OPENAI_API_KEY=sk-xxxx
-    OPENAI_BASE_URL=[https://api.openai.com/v1](https://api.openai.com/v1)
-    OPENAI_CHAT_MODEL=YOUR_PREFERRED_LLM_NAME
+    # OpenAI / OpenAI-kompatibel (z.B. local vLLM / Ollama OpenAI-API shim)
+    OPENAI_API_KEY=changeme
+    OPENAI_BASE_URL=http://localhost:11434/v1
+    
+    # Modelle
+    OPENAI_EMBED_MODEL=jeffh/intfloat-multilingual-e5-large:q8_0
+    OPENAI_CHAT_MODEL=GPT-OSS20B
+    
+    # Qdrant
+    QDRANT_URL=http://qdrant:6333
+    QDRANT_COLLECTION=jar_el_memory
+    QDRANT_VECTOR_SIZE=1024
+    QDRANT_DISTANCE=cosine
 
     # Internal Config
     MEMORY_API_URL=http://memory-api:8000
