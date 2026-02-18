@@ -1,5 +1,6 @@
 import os
 import uuid
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from dotenv import load_dotenv
@@ -9,7 +10,9 @@ from pydantic import BaseModel, Field
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, VectorParams, PointStruct
 
-load_dotenv()
+# Lade .env aus Repo-Root (../.env relativ zu memory-api/main.py)
+ENV_PATH = (Path(__file__).resolve().parent.parent / ".env")
+load_dotenv(dotenv_path=ENV_PATH, override=False)
 
 # OpenAI-kompatibler Client
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
