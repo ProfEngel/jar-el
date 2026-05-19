@@ -1,4 +1,6 @@
 # Jar-El 🧠
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20286710.svg)](https://doi.org/10.5281/zenodo.20286710)
+
 
 ![GitHub stars](https://img.shields.io/github/stars/ProfEngel/Jar-El?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/ProfEngel/Jar-El?style=social)
